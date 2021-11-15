@@ -1,5 +1,7 @@
 # 腾讯觅影比赛小结
 
+比赛详情 https://contest.taop.qq.com/
+
 ## 模型简述
 
 ![](https://raw.githubusercontent.com/eshoyuan/pic/main/20211115114921.png)
