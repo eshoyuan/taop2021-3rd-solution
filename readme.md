@@ -57,6 +57,7 @@ triplet loss和svm/xgboost结合
     这个资料在比赛前期为我提供了比较大的帮助
 
 2. Kaggle APTOS2019 https://www.kaggle.com/c/aptos2019-blindness-detection/discussion?sort=votes
+
     Kaggle Cassava Leaf Disease Classification(9个月前结束) https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion?sort=votes
     
     以上比赛的讨论区都有非常多的分享, 从backbone的选取到一些小技巧, APTOS与本次比赛内容相关度更大, 本次增强方法就是从这里借鉴的,  Cassava Leaf Disease Classification则更新, swin transformer的尝试也是看了其中一个金牌的解决方案后开始尝试.
