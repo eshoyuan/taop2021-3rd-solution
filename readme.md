@@ -53,20 +53,26 @@ triplet loss和svm/xgboost结合
 以下是认为对我帮助比较大的资料
 
 1. 本科生晋升GM记录 & kaggle比赛进阶技巧分享 https://zhuanlan.zhihu.com/p/93806755
+
     这个资料在比赛前期为我提供了比较大的帮助
 
 2. Kaggle APTOS2019 https://www.kaggle.com/c/aptos2019-blindness-detection/discussion?sort=votes
     Kaggle Cassava Leaf Disease Classification(9个月前结束) https://www.kaggle.com/c/cassava-leaf-disease-classification/discussion?sort=votes
+    
     以上比赛的讨论区都有非常多的分享, 从backbone的选取到一些小技巧, APTOS与本次比赛内容相关度更大, 本次增强方法就是从这里借鉴的,  Cassava Leaf Disease Classification则更新, swin transformer的尝试也是看了其中一个金牌的解决方案后开始尝试.
 
 3. Kaggle APTOS2019 11th solution https://github.com/4uiiurz1/kaggle-aptos2019-blindness-detection 
+
     这份代码比较简单易懂, 写的比我规范很多, 我也借鉴了他的一些内容和写法.
 
 4. timm模型库 https://rwightman.github.io/pytorch-image-models/
+
     这个库非常好用, 上手容易, 模型齐全. 此外提一下这个库作者最近的一篇工作https://arxiv.org/abs/2110.00476, 利用各种先进的trick将ResNet50从75.3提升至80.4, 里面提到的方法对于此类比赛应该会有一些帮助.
 
 5. CAM https://github.com/jacobgil/pytorch-grad-cam
+
     根据示例就可以很快上手
 
 6. 集成和蒸馏 https://www.microsoft.com/en-us/research/blog/three-mysteries-in-deep-learning-ensemble-knowledge-distillation-and-self-distillation/
+
     这篇博文是作者关于集成, 蒸馏, 自蒸馏的一些实验和看法, 让我对于集成和蒸馏有了新的认识.
